@@ -1,0 +1,147 @@
+/* Стили для мобильных устройств (ширина экрана до 767px) */
+@media screen and (max-width: 767px) {
+    /* Здесь добавьте стили для мобильных устройств */
+    .ContainerText {
+      display: flex;
+      flex-direction: column; /* Располагаем контейнеры вертикально */
+      align-items: center; /* Выравниваем контейнеры по центру */
+      width: 90%; /* Устанавливаем ширину контейнера */
+      margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    }
+  
+    #characters-container {
+      width: 90%; /* Уменьшаем ширину контейнера */
+    }
+  
+    #InfoContainer {
+      width: 90%; /* Уменьшаем ширину контейнера */
+      margin-top: 20px; /* Добавляем отступ сверху */
+    }
+  
+    .info-kage-container,
+    .info-kage-container1,
+    .info-kage-container2,
+    .info-kage-container3,
+    .info-kage-container4 {
+      left: 50%; /* Располагаем контейнер по центру */
+      transform: translateX(-50%); /* Корректируем положение по горизонтали */
+    }
+  }
+
+.ContainerText {
+    display: flex;
+    justify-content: space-between; /* Располагаем контейнеры по краям */
+    align-items: flex-start; /* Выравниваем контейнеры по верхнему краю */
+    width: 90%; /* Устанавливаем ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+}
+
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Выравниваем персонажей по центру */
+    gap: 20px; /* Расстояние между персонажами */
+    width: 60%; /* Ширина контейнера */
+    text-align: center; /* Выравниваем содержимое по центру */
+    background-color: rgba(199, 42, 42, 0.4); /* Прозрачный белый фон */
+    padding: 10px; /* Добавляем немного отступа вокруг картинок */
+    border-radius: 10px; /* Закругляем углы контейнера */
+}
+
+.character-container {
+    text-align: center; /* Выравниваем содержимое по центру */
+    background-color: blanchedalmond;
+}
+
+.character-container img {
+    width: 150px; /* Установка фиксированной ширины */
+    height: 150px; /* Установка фиксированной высоты */
+    object-fit: cover; /* Позволяет изображениям сохранять пропорции и обрезаться, если не помещаются */
+}
+
+#InfoContainer {
+    display: flex;
+    flex-direction: column; /* Размещаем содержимое вертикально */
+    align-items: flex-end; /* Располагаем элементы справа */
+    padding: 10px; /* Добавляем отступы вокруг содержимого */
+    width: 60%; /* Ширина контейнера */
+    height: 80%; /* Высота контейнера */
+    opacity: 0.9;
+}
+
+.background {
+    position: fixed; /* Зафиксируем изображение */
+    top: 0;
+    left: 0;
+    width: 100%; /* Растягиваем изображение на всю ширину окна */
+    height: 100%; /* Растягиваем изображение на всю высоту окна */
+    z-index: -1; /* Поместим его за остальными элементами */
+    opacity: 0.6; /* Прозрачность */
+    filter: blur(3px);
+}
+
+.info-kage-container {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 100px; /* Располагаем контейнер внизу */
+    left: 60%; /* Располагаем контейнер по центру */
+    transform: translateX(-50%); /* Корректируем положение по горизонтали */
+}
+
+.info-kage-container1 {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 300px; /* Располагаем контейнер внизу, с небольшим отступом от предыдущего блока */
+    left: 60%; /* Располагаем контейнер по центру */
+    transform: translateX(-50%); /* Корректируем положение по горизонтали */
+}
+
+.info-kage-container2 {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 600px; /* Располагаем контейнер внизу, с отступом от предыдущего блока */
+    left: 60%; /* Располагаем контейнер по центру */
+    transform: translateX(-50%); /* Корректируем положение по горизонтали */
+}
+
+.info-kage-container3 {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 400px; /* Располагаем контейнер внизу, с отступом от предыдущего блока */
+    left: 60%; /* Располагаем контейнер по центру */
+    transform: translateX(-50%); /* Корректируем положение по горизонтали */
+}
+
+.info-kage-container4 {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 500px; /* Располагаем контейнер внизу, с отступом от предыдущего блока */
+    left: 60%; /* Располагаем контейнер по центру */
+    transform: translateX(-50%); /* Корректируем положение по горизонтали */
+}
+
+#InfoContainer {
+    display: flex; /* Располагаем контейнеры в строку */
+}
+
+.kage {
+    background-color: gray; 
+}
+
+.kage1 {
+    background-color: gray; 
+}
+
+.kage2 {
+    background-color: gray; 
+}
+
+.kage3 {
+    background-color: gray; 
+}
+
+.kage4 {
+    background-color: gray;; 
+}
+
+
+.highlighted {
+    color: red; /* Любой желаемый цвет подсветки */
+    font-weight: bold; /* Жирный шрифт */
+    /* Дополнительные стили подсветки */
+}

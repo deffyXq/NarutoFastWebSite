@@ -1,0 +1,242 @@
+/* Стили для мобильных устройств (ширина экрана до 767px) */
+@media screen and (max-width: 767px) {
+    /* Здесь добавьте стили для мобильных устройств */
+    .Image {
+      float: right; 
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 20%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageWater {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 25%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageIron {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 25%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageSound {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 25%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageGround {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 20%; /* Увеличиваем ширину изображения */
+    }
+  
+    .Imagelightning {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 20%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageCloud {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 25%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageFire {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 20%; /* Увеличиваем ширину изображения */
+    }
+  
+    .ImageSnow {
+      float: right; /* Выравниваем изображение справа */
+      margin-right: 10px; /* Уменьшаем отступ справа */
+      margin-top: -20px; /* Уменьшаем отступ сверху */
+      width: 25%; /* Увеличиваем ширину изображения */
+    }
+  }
+
+.UpCenter {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Image {
+    float: right; 
+    margin-right: 1400px;
+    margin-top: -130px;
+    width: 5%;
+}
+
+.ImageWater {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1230px; /* Отступ справа */
+    margin-top: -30px;
+    width: 7%;
+}
+
+.visionText {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.Imagebackground {
+    margin: 0;
+    padding: 0;
+    background-image: url("./static/images/backgroundCountry.webp");
+    background-size: cover; /* Растягивает изображение, чтобы оно заполнило всю доступную область */
+    background-position: center; /* Выравнивает фон по центру */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Помещает фон за контент */
+}
+
+.h2back {
+    background-color: green;
+    display: inline-block;
+}
+
+.white-background {
+    background-color: rgba(255, 255, 255, 0.9); /* Прозрачный белый фон */
+    padding: 20px; /* Отступы вокруг текста */
+    margin: 20px auto; /* Центрируем контейнер */
+    width: 1500px; /* Новая ширина контейнера */
+    border-radius: 10px; /* Скругление углов */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1, h2, h3 {
+    text-align: center; /* Центрируем заголовки */
+}
+
+p {
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+.h3back {
+    background-color: rgb(49, 192, 228);
+    display: inline-block;
+}
+
+.h4back {
+    background-color: rgb(175, 186, 189);
+    display: inline-block;
+}
+
+.h5back {
+    background-color: rgb(185, 82, 206);
+    display: inline-block;
+}
+
+.h6back {
+    background-color: rgb(155, 106, 61);
+    display: inline-block;
+}
+
+.h7back {
+    background-color: rgb(218, 241, 85);
+    display: inline-block;
+}
+
+.h8back {
+    background-color: rgb(165, 165, 165);
+    display: inline-block;
+}
+
+.h9back {
+    background-color: rgb(224, 22, 22);
+    display: inline-block;
+}
+
+.h10back {
+    background-color: rgb(221, 221, 221);
+    display: inline-block;
+}
+
+.ImageIron {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1200px; /* Отступ справа */
+    margin-top: -110px; /* Отступ сверху */
+    width: 7%;
+}
+
+.ImageSound {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1200px; /* Отступ справа */
+    margin-top: -10px; /* Отступ сверху */
+    width: 7%;
+}
+
+.ImageGround {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1220px; /* Отступ справа */
+    margin-top: -20px; /* Отступ сверху */
+    width: 5%;
+}
+
+.Imagelightning {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1220px; /* Отступ справа */
+    margin-top: 10px; /* Отступ сверху */
+    width: 5%;
+}
+
+.ImageCloud {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1120px; /* Отступ справа */
+    margin-top: -30px; /* Отступ сверху */
+    width: 9%;
+}
+
+.ImageFire {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1020px; /* Отступ справа */
+    margin-top: -100px; /* Отступ сверху */
+    width: 7%;
+}
+
+.ImageSnow {
+    position: relative; /* Устанавливаем позицию относительно родительского элемента */
+    float: right; /* Выравниваем изображение справа */
+    margin-right: 1200px; /* Отступ справа */
+    margin-top: -20px; /* Отступ сверху */
+    width: 7%;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row; /* Располагаем элементы в строку */
+}
+
+.column { 
+    flex: 1; /* Равномерно распределяем пространство между столбцами */
+}
+
+.column2 {
+    margin-left: 165px;
+    margin-top: -92px;
+}
+

@@ -1,0 +1,118 @@
+/* Общие стили */
+.span {
+  text-align: center;
+  text-decoration: double;
+}
+
+.white-background {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: rgba(212, 203, 203, 0.9);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(10, 5, 5, 0.1);
+}
+
+.NarutoImg {
+  max-width: 200px; /* Максимальная ширина изображения */
+  margin-right: 25px; /* Отступ справа от изображения */
+}
+
+ol {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем внутренние отступы у списка */
+}
+
+ol li {
+  margin-bottom: 5px; /* Добавляем отступы между элементами списка */
+}
+
+.ContainerPages {
+  width: 200px; /* Ширина контейнера */
+  height: 200px; /* Высота контейнера */
+  border-radius: 10%; /* Создание круглого квадрата */
+  background-color: #f0e7d8; /* Бежевый цвет фона контейнера */
+  padding: 10px; /* Отступы внутри контейнера */
+  margin-right: 25px; /* Отступ справа от изображения */
+}
+
+.ContainerPages ol {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем внутренние отступы у списка */
+}
+
+.ContainerPages ol li {
+  margin-bottom: 10px; /* Добавляем отступы между элементами списка */
+}
+
+.ContainerPages ol li a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  color: #555; /* Темно-серый цвет текста ссылок */
+  font-weight: bold; /* Жирный текст */
+  display: block; /* Превращаем ссылки в блочные элементы */
+  padding: 5px; /* Увеличиваем отступы внутри ссылок */
+  background-color: #e0d9cb; /* Светло-бежевый цвет фона ссылок */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.ContainerPages ol li a:hover {
+  background-color: #ccc; /* Светло-серый цвет фона ссылок при наведении */
+}
+
+p {
+  flex: 1; /* Занимаем всю доступную ширину */
+}
+
+.Imagebackground {
+  margin: 0;
+  padding: 0;
+  background-image: url("./static/images/backgroundCountry.webp");
+  background-size: cover; /* Растягивает изображение, чтобы оно заполнило всю доступную область */
+  background-position: center; /* Выравнивает фон по центру */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Помещает фон за контент */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Элементы будут располагаться вертикально */
+  align-items: flex-start; /* Изменяем выравнивание элементов по вертикали */
+}
+
+.site-description {
+  margin-bottom: 10px; /* Добавляем отступ снизу для разделения текста и изображения */
+}
+
+.span1 {
+  font-weight: bold;
+}
+
+/* Стили для мобильных устройств (ширина экрана до 767px) */
+@media screen and (max-width: 767px) {
+  .white-background {
+      max-width: 95%; /* Ширина контейнера для мобильных устройств */
+      margin: 20px auto; /* Центрируем контейнер на странице */
+  }
+  .NarutoImg {
+      max-width: 100%; /* Изображение занимает всю доступную ширину контейнера */
+      margin-right: 0; /* Убираем отступ справа у изображения */
+      margin-bottom: 10px; /* Добавляем отступ снизу у изображения */
+  }
+  .ContainerPages {
+      width: 100%; /* Ширина контейнера для мобильных устройств */
+      max-width: none; /* Убираем максимальную ширину контейнера */
+      margin-right: 0; /* Убираем отступ справа у контейнера */
+      margin-bottom: 10px; /* Добавляем отступ снизу у контейнера */
+  }
+  .span1 {
+      font-weight: bold;
+      text-align: center; /* Центрируем текст */
+  }
+}

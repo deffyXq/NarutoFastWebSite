@@ -1,0 +1,118 @@
+/* Стили для мобильных устройств (ширина экрана до 767px) */
+@media screen and (max-width: 767px) {
+    /* Здесь добавьте стили для мобильных устройств */
+    .white-background {
+      padding: 5px; /* Уменьшаем отступы вокруг текста */
+      margin: 5px auto; /* Центрируем контейнер */
+      width: 90%; /* Изменяем ширину контейнера на 90% */
+      border-radius: 15px; /* Уменьшаем скругление углов */
+      box-shadow: 0 0 5px rgba(10, 5, 5, 0.1); /* Уменьшаем тень */
+    }
+  
+    .background {
+      position: fixed; /* Зафиксируем изображение */
+      top: 0;
+      left: 0;
+      width: 100%; /* Растягиваем изображение на всю ширину окна */
+      height: 100%; /* Растягиваем изображение на всю высоту окна */
+      z-index: -1; /* Поместим его за остальными элементами */
+      opacity: 0.6; /* Прозрачность */
+    }
+  
+    .span1 {
+      margin: 0;
+      font-size: 1.5em; /* Уменьшаем размер текста */
+      text-decoration: underline;
+      text-decoration-skip: edges;
+    }
+  
+    .span2 {
+      line-height: 1.5;
+      letter-spacing: 1px; /* Уменьшаем расстояние между буквами */
+      display: block; /* Установка элементов в столбец */
+      margin-bottom: 5px; /* Уменьшаем отступ между элементами */
+    }
+  
+    .kryg1,
+    .kryg2,
+    .kryg4,
+    .kryg5,
+    .kryg6,
+    .kryg7,
+    .kryg8,
+    .kryg3 {
+      opacity: 0.7; /* Прозрачность */
+      margin: 0 5px; /* Уменьшаем отступы между картинками */
+      width: 80px; /* Уменьшаем размер картинок */
+      height: 80px; /* Уменьшаем размер картинок */
+    }
+  
+    .kryg5,
+    .kryg6,
+    .kryg7,
+    .kryg8 {
+      float: none; /* Отменяем выравнивание по правому краю */
+      margin: 5px auto; /* Центрируем картинки */
+    }
+  }
+  
+.white-background {
+    background-color: rgba(212, 203, 203, 0.9); /* Прозрачный белый фон */
+    padding: 10px; /* Отступы вокруг текста */
+    margin: 5px auto; /* Центрируем контейнер */
+    width: 1700px; /* Новая ширина контейнера */
+    border-radius: 25px; /* Скругление углов */
+    box-shadow: 0 0 10px rgba(10, 5, 5, 0.1); /* Тень */
+}
+
+.background {
+    position: fixed; /* Зафиксируем изображение */
+    top: 0;
+    left: 0;
+    width: 100%; /* Растягиваем изображение на всю ширину окна */
+    height: 100%; /* Растягиваем изображение на всю высоту окна */
+    z-index: -1; /* Поместим его за остальными элементами */
+    opacity: 0.6; /* Прозрачность */
+}
+
+.centerbody {
+    text-align: center;
+}
+
+.h1center {
+    text-align: center;
+}
+
+.span1 {
+    margin: 0;
+  font-size: 2em;
+  text-decoration: underline;
+  text-decoration-skip: edges;
+}
+
+.span2 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    display: block; /* Установка элементов в столбец */
+    margin-bottom: 10px; /* Добавление отступа между элементами */
+}
+
+.kryg1, .kryg2, .kryg4, .kryg5, .kryg6, .kryg7, .kryg8 {
+    opacity: 0.7; /* Прозрачность */
+    margin: 0 10px; /* Отступы между картинками */
+    float: left; /* Выравнивание по левому краю */
+    width: 100px; /* Фиксированная ширина */
+    height: 100px; /* Фиксированная высота */
+}
+
+.kryg5, .kryg6, .kryg7, .kryg8 {
+    float: right; /* Выравнивание по правому краю */
+}
+
+.kryg3 {
+    float: left; /* Выравнивание по левому краю */
+    opacity: 0.7; /* Прозрачность */
+    margin: 0 5px; /* Отступы между картинками */
+    width: 110px;
+    height: 110px;
+}
